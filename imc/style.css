@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    margin-left: 2%;
+}
+
+header, main {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .titulo {
+    text-align: center;
+    margin: 2%;
+}
+
+main .container  {
+    margin: 2%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+main form {
+    width: 300px;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+main form label {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+main form input {
+    margin: 1%;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 4px;
+    font-size: 18px;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+main form input:hover {
+    background-color: #8ac767;
+    transition-duration: .2s;  
+}
+
+main form .btns {
+    margin: 1%;
+    display: flex;
+}
+
+main form button {
+    margin: 1%;
+    border: 1px solid green;
+    border-radius: 7px;
+    width: 50%;
+    height: 30px;
+}
+
+form .resutado {
+    width: 50%;
+    margin: 2%;
+}
+
+form .resutado p {
+    font-size: 1.3em;
+}
+
+
+main table {
+    border: 3px solid green;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+main table thead th {
+    font-size: 1.2rem;
+    padding: 4px;
+    background-color: #369436;
+}
+
+
+main table tbody td {
+    font-size: 1.1rem;
+    padding: 4px;
+    background-color: #bddfbd;
+}
+
