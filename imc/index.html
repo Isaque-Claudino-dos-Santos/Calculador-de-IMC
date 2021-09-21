@@ -28,15 +28,15 @@
         <div class="container">
             <form onsubmit="return false" action="#">
                 <label for="altura">Altura</label>
-                <input type="number" id="altura" placeholder="ex:1.11m" autocomplete="off" required>
+                <input type="number" id="altura" placeholder="ex:1.11m" autocomplete="off">
                 <label for="pesso">Pesso</label>
-                <input type="number" id="pesso" placeholder="80.5Kg" autocomplete="off" required>
+                <input type="number" id="pesso" placeholder="80.5Kg" autocomplete="off">
                 <div class="btns">
-                    <button>Calcular</button>
-                    <button>Limpar</button>
+                    <button onclick="calcular()">Calcular</button>
+                    <button onclick="limpar()">Limpar</button>
                 </div>
                 <div class="resutado">
-                    <p>Seu IMC é de 00</p>
+                    <p></p>
                 </div>
             </form>
             <table>
@@ -78,6 +78,7 @@
         </div>
     </main>
 
+    <script src="./script.js"></script>
 </body>
 
 </html>

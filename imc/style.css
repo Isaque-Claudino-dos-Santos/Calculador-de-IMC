@@ -7,10 +7,6 @@
     text-decoration: none;
 }
 
-.container {
-    margin-left: 2%;
-}
-
 header, main {
     width: 100%;
 }
@@ -74,7 +70,7 @@ main form button {
 }
 
 form .resutado {
-    width: 50%;
+    width: 100%;
     margin: 2%;
 }
 
@@ -88,6 +84,7 @@ main table {
     border-radius: 5px;
     padding: 3px;
     text-align: center;
+    height: 90%;
 }
 
 main table thead th {
